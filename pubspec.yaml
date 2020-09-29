@@ -1,9 +1,7 @@
 name: fastnet
 description: A new Flutter package.
 version: 0.0.1
-author:
-homepage:
-
+repository: https://github.com/DAMMAK/FastNet
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.17.0 <2.0.0"
