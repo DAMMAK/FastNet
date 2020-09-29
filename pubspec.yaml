@@ -1,5 +1,5 @@
 name: fastnet
-description: A new Flutter package.
+description: A Dart package that allows you to test your network download and upload speed using fast.com.
 version: 0.0.1
 repository: https://github.com/DAMMAK/FastNet
 environment:
