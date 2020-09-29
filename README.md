@@ -14,3 +14,18 @@ dependencies:
   fastnet: ^0.0.1
 
 ```
+
+## Usage
+
+```dart
+
+var fastnet = FastNet(isListenable: false);
+var response = await fastnet.getSpeed();
+  response.listen((Result event) {
+    print(event.downloadSpeedValue);
+  });
+
+```
+
+### Inspired
+https://github.com/sindresorhus/fast-cli
