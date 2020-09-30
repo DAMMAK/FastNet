@@ -9,3 +9,14 @@ void main() async {
         "Download: ${result.downloadSpeedValue} ${result.downloadSpeedUnit}\n Upload:  ${result.uploadSpeedValue} ${result.uploadSpeedUnit}");
   });
 }
+
+/* OUTPUT
+
+Download: 1.0Mbps
+Upload: 567Kbps
+Download: 5.0Mbps
+Upload: 1.2Mbps
+Download: 20Mbps
+Upload: 3.0Mbps
+
+*/

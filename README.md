@@ -11,7 +11,7 @@
 
 ```dart
 dependencies:
-  fastnet: ^0.0.1
+  fastnet: ^1.0.2
 
 ```
 
@@ -28,4 +28,5 @@ var response = await fastnet.getSpeed();
 ```
 
 ### Inspired
+
 https://github.com/sindresorhus/fast-cli

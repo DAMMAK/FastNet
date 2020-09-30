@@ -44,7 +44,7 @@ class FastNet {
     }
   }
 
-   getSpeed() async {
+  getSpeed() async {
     StreamController<Result> _streamController = StreamController();
     Browser browser = await puppeteer.launch(timeout: Duration(minutes: 10));
     Page page = await browser.newPage();

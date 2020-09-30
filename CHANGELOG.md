@@ -11,3 +11,7 @@
 
 - Fix code error
 - Include Example source code
+
+## 1.0.2 (30-09-2020)
+
+- Expose Result class model to the user
