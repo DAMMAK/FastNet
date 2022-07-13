@@ -50,6 +50,7 @@ class FastNet {
     Page page = await browser.newPage();
     await page.goto('https://fast.com/#');
     init(page: page, browser: browser, streamController: _streamController);
+    _streamController.close();
     return _streamController.stream;
   }
 }

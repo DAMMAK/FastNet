@@ -9,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  puppeteer: ^1.18.0
-  equatable: ^1.2.5
+  puppeteer: ^2.3.0
+  equatable: ^2.0.3
 
 dev_dependencies:
   flutter_test:
